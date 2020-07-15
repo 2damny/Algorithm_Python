@@ -1,4 +1,5 @@
 #k번째 약수 구하기
+
 import sys
 sys.stdin=open("input.txt", "rt")
 

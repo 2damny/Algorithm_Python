@@ -1,5 +1,8 @@
+# 정다면체
+
 import sys
 sys.stdin=open("input.txt","rt")
+
 n, m = map(int, input().split())
 cnt = [0]*(n+m+3) #리스트 생성
 max = 0

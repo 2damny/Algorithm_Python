@@ -1,6 +1,7 @@
 '''
 많이 어려웠음 꼭 이해하고 넘어가기
 '''
+# 대푯값
 
 import sys
 sys.stdin=open("input.txt", "rt")

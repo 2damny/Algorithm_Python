@@ -1,5 +1,7 @@
-#import sys
-#sys.stdin=open("input.txt","rt")
+# K번째 작은수 구하기
+
+import sys
+sys.stdin=open("input.txt","rt")
 
 T=int(input()) #케이스 갯수
 for t in range(T):

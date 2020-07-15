@@ -1,3 +1,4 @@
+# K번째 큰 수
 import sys
 sys.stdin=open("input.txt","rt")
 

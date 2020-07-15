@@ -1,3 +1,5 @@
+# 주사위게임
+
 import sys
 sys.stdin=open("input.txt","rt")
 

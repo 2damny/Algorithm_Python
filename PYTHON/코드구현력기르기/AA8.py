@@ -1,3 +1,5 @@
+# 뒤집은 소수
+
 import sys
 sys.stdin=open("input.txt","rt")
 

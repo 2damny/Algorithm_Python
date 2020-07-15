@@ -1,3 +1,4 @@
+# 소수(에라토스체네스 체) 구하기
 import sys
 sys.stdin=open("input.txt","rt")
 

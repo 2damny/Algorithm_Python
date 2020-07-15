@@ -1,3 +1,4 @@
+# 자릿수의 합
 import sys
 sys.stdin=open("input.txt","rt")
 
@@ -5,6 +6,7 @@ n = int(input())
 a = list(map(int, input().split()))
 max = -21470000000
 
+# 방법1
 #def digit_sum(x):
 #    sum=0 #자릿수 더한 값
 #    while x >0:
@@ -12,6 +14,7 @@ max = -21470000000
 #        x = x //10
 #    return sum
 
+# 방법2
 def digit_sum(x):
     sum = 0
     for i in str(x):
