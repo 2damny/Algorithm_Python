@@ -1,4 +1,4 @@
-# K번째 약수 구하기
+#  숫자만 추출
 
 import sys
 sys.stdin = open("input.txt","rt")
