@@ -1,4 +1,4 @@
-#  숫자만 추출
+# 숫자만 추출
 
 import sys
 sys.stdin = open("input.txt","rt")
