@@ -8,6 +8,7 @@ a = list(range(21))
 
 # 입력변수를 돌면서 swap해주는 부분
 # _는 변수를 사용하지 않는것
+# 주어진 구간이 10개이니까 range(10)
 for _ in range(10):
     s,e=map(int, input().split())
     # 입력받은 s,e가 자리를 바꾸기 위해서는 (e-s+1)//2 만큼 회전해야함
