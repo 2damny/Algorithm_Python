@@ -11,13 +11,14 @@ for i in range(m):
     # 행번호 h, 방향 t, 갯수 k
     h,t,k = map(int, input().split())
     if t == 0:
-        # 왼쪽방향으로
+        # t가 0이면 왼쪽방향으로
         for _ in range(k):
             # 한번 회전
             # pop() : 맨 마지막요소를 출력하고, 리스트에서 삭제
+            # pop(0) : 맨 앞 요소를 출력하고, 리스트에서 삭제
             # append(x) : 리스트에 요소추가
             a[h-1].append(a[h-1].pop(0))            
-    # 오른쪽 방향으로
+    # t가 1이면 오른쪽 방향으로
     # insert(a,b) : a위치에 b 삽입
     else:
         for _ in range(k):
